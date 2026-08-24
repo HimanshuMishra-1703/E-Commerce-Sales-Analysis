@@ -83,12 +83,12 @@ The Power BI dashboard consists of two pages:
 ### Page 1 – E-Commerce Sales & Profit Analysis
 
 Provides an overview of sales, profit, quantity, category performance, and sub-category profitability.
-![E-Commerce Sales & Profit Analysis](./Dashboard/dashboard_page_1.png)
+![E-Commerce Sales & Profit Analysis](Dashboard/dashboard_page%201.png)
 
 ### Page 2 – E-Commerce Sales Performance & Target Analysis
 
 Provides sales trends, top-performing states and cities, and monthly sales versus target analysis.
-![E-Commerce Sales Performance & Target Analysis](./Dashboard/dashboard_page_2.png)
+![E-Commerce Sales Performance & Target Analysis](Dashboard/dashboard_page%202.png)
 
 ## 💡 Business Recommendations
 
