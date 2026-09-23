@@ -4,7 +4,7 @@
 
 This project analyzes e-commerce sales data to understand sales performance, profitability, product performance, and regional trends.
 
-SQL was used for data exploration and business analysis, while Power BI was used to build an interactive dashboard for visualizing key performance indicators and business insights.
+SQL was used for data exploration and business analysis, Python/Pandas was used for analytical processing and AI integration, while Power BI was used to build an interactive dashboard for visualizing key performance indicators and business insights. An Ollama-powered local LLM was integrated to enable natural-language business queries.
 
 ## 🎯 Objectives
 
@@ -22,6 +22,8 @@ SQL was used for data exploration and business analysis, while Power BI was used
 - **Power BI** – Data visualization and dashboard development
 - **Power Query** – Data cleaning and transformation
 - **DAX** – Calculated columns and Power BI analysis
+- **Python / Pandas** – AI analytics and data processing
+- **Ollama / Llama 3.2** – Local LLM for natural-language business queries
 
 ## 📂 Dataset
 
@@ -64,6 +66,34 @@ The Power BI dashboard includes:
 - Top 5 Cities by Sales
 - Monthly Sales vs Target
 - Interactive category filters
+
+## 🤖 AI-Powered Analytics
+
+An AI layer was integrated into the project using Python, Pandas, Ollama, and Llama 3.2.
+
+The system allows users to ask business questions in natural language, such as:
+
+- Which category has the highest sales?
+- Which category has the highest profit?
+- Which state has the highest profit?
+- Which sub-category is making a loss?
+- Give me an overall business summary.
+
+### How It Works
+
+User asks a business question  
+↓  
+Ollama / Llama 3.2 interprets the question  
+↓  
+Selects the appropriate predefined Python analytical function  
+↓  
+Python / Pandas calculates the result from the project dataset  
+↓  
+The result is passed back to the LLM  
+↓  
+AI provides a business-oriented explanation
+
+The numerical calculations are performed by Python/Pandas rather than allowing the LLM to generate numerical values directly.
 
 ## 📊 Key Insights
 
